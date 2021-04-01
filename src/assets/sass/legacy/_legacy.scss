@@ -280,7 +280,7 @@ header {
 .login-container {
 	font-family: "Ubuntu", sans-serif;
 	width: 20rem;
-	margin: 18rem auto;
+	margin: 14rem auto;
 }
 
 .login-panel {
@@ -319,9 +319,9 @@ header {
 	input[type=email]{
 		width: 260px;
 		height: 50px;
-		margin-left: 20px;
+		margin-left: -3px;
 		margin-bottom: 20px;
-		padding-left: 45px;
+		padding-left: 44px;
 		background: #50597b;
 		color: #fff;
 		border: solid 1px #1f253d;
@@ -331,9 +331,9 @@ header {
 		input[type=password]{
 			width: 260px;
 			height: 50px;
-			margin-left: 20px;
+			margin-left: -3px;
 			margin-bottom: 20px;
-			padding-left: 45px;
+			padding-left: 44px;
 			background: #50597b;
 			color: #fff;
 			border: solid 1px #1f253d;
