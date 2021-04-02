@@ -1,10 +1,7 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/login">Login</router-link> |
-      <router-link to="/">Home</router-link> |
-      <router-link to="/guest">Guest</router-link> |
-      <router-link to="/about">About</router-link>
+    <div>
+      <Navigation />
     </div>
     <router-view />
   </div>
@@ -13,3 +10,12 @@
 <style lang="scss">
 @import "assets/sass/main";
 </style>
+
+<script>
+import Navigation from "@/components/Navigation.vue";
+
+export default {
+  name: "Home",
+  components: { Navigation },
+};
+</script>
