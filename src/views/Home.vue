@@ -1,5 +1,3 @@
-<template>
-  <div class="home">
-    <div>HomePage</div>
-  </div>
+<template lang="pug">
+    h1 This is the home page
 </template>
