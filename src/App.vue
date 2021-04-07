@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <div>
-      <Navigation />
-    </div>
+    <Navigation />
     <router-view />
   </div>
 </template>
@@ -11,11 +9,11 @@
 @import "assets/sass/main";
 </style>
 
-<script>
-import Navigation from "@/components/Navigation.vue";
+<script lang="ts">
+import Navigation from "./components/Navigation.vue";
 
 export default {
-  name: "Home",
+  name: "app",
   components: { Navigation },
 };
 </script>
