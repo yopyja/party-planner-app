@@ -90,5 +90,11 @@ npm run test:unit
 npm run lint
 ```
 
+### Runs simple selenium test in root/test folder
+```
+npm test
+```
+
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
