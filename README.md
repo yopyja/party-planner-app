@@ -53,6 +53,7 @@ Webdriver (v89)
 For windows follow this and setup WSL2 (Mac and Linux skip this)
 https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10
 
+### CD into src/frontend and run these to work on the front end
 ```
 npm install
 ```
@@ -76,6 +77,16 @@ npm run test:unit
 ```
 npm run lint
 ```
+
+### CD into Test and run these
+```
+npm install
+```
+
+```
+npm test
+```
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
