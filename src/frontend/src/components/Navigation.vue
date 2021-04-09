@@ -1,18 +1,17 @@
 <template>
-  <!-- HEADER -->
-  <header class="block">
+  <header class="nav-width block">
     <ul class="header-menu horizontal-list">
       <li>
-        <router-link to="/login">
-          <a class="header-menu-tab" href="#3"
-            ><span class="icon fontawesome-sign-in-alt scnd-font-color"></span
+        <router-link to="/">
+          <a class="header-menu-tab"
+            ><span class="icon fontawesome-truck scnd-font-color"></span
             >Login</a
           >
         </router-link>
       </li>
       <li>
         <router-link to="/planner">
-          <a class="header-menu-tab" href="#3"
+          <a class="header-menu-tab"
             ><span class="icon fontawesome-edit scnd-font-color"></span
             >Planner</a
           >
@@ -20,7 +19,7 @@
       </li>
       <li>
         <router-link to="/events">
-          <a class="header-menu-tab" href="#2"
+          <a class="header-menu-tab"
             ><span class="icon fontawesome-calendar scnd-font-color"></span
             >Events</a
           >
@@ -28,14 +27,14 @@
       </li>
       <li>
         <router-link to="/guest">
-          <a class="header-menu-tab" href="#1"
+          <a class="header-menu-tab"
             ><span class="icon fontawesome-user scnd-font-color"></span>Guest</a
           >
         </router-link>
       </li>
       <li>
         <router-link to="/reports">
-          <a class="header-menu-tab" href="#5"
+          <a class="header-menu-tab"
             ><span class="icon fontawesome-file-alt scnd-font-color"></span
             >Viewer</a
           >
@@ -46,9 +45,7 @@
       <div class="profile-menu">
         <p>
           Me
-          <a href="#26"
-            ><span class="entypo-down-open scnd-font-color"></span
-          ></a>
+          <a><span class="entypo-down-open scnd-font-color"></span></a>
         </p>
         <div class="profile-picture small-profile-picture">
           <img
@@ -65,10 +62,17 @@
 <script>
 export default {
   name: "Navigation",
-  props: {},
+  data() {
+    return {};
+  },
 };
 </script>
 
 <style lang="scss">
 @import "../assets/sass/main";
+
+.nav-width {
+  margin-left: 25rem;
+  margin-right: 25rem;
+}
 </style>
