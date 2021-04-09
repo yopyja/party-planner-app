@@ -28,12 +28,11 @@ Pages
  - planner (send/revoke invites to people) 
  - guest (people create/update/delete) 
  - events (party create/update/delete) 
- - viewer (display info either tied to party or individual) api select call usage
+ - viewer (display info either tied to party or individual)
  - login page is a joke
 
 
--- Testing will exist in the project but I dont expect it at all bc testing sucks --
-UnitTest (optional)
+UnitTest (need to learn about proper creation but v much interested)
  - Mocha
 E2E
  - Selenium Cucumber in Js (super super cool)
