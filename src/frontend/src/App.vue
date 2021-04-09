@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <Navigation />
-       <button
+    <button
       type="button"
       class="btn"
       @click="showModal"
@@ -13,7 +12,11 @@
       v-show="isModalVisible"
       @close="closeModal"
     />
+    <div>
+    <Navigation />
+       
     <router-view />
+    </div>
   </div>
 </template>
 

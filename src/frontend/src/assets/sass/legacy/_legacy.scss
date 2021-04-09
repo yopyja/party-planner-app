@@ -143,11 +143,7 @@ span {
 }
 /*********************************************** HEADER ***********************************************/
 
-.block {
-	margin-bottom: 25px;
-	background: #394264;
-	border-radius: 5px;
-}
+
 /********************************************* RIGHT CONTAINER ****************************************/
 .account {
 	height: 390px;
@@ -169,6 +165,7 @@ span {
 .login-container {
 	font-family: "Ubuntu", sans-serif;
 	width: 20rem;
+	user-select: none;
 	margin: 14rem auto;
 }
 

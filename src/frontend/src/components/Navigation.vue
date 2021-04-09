@@ -1,5 +1,5 @@
 <template>
-  <header class="nav-width block">
+  <header class="nav-width">
     <ul class="header-menu horizontal-list">
       <li>
         <router-link to="/">
@@ -41,7 +41,7 @@
         </router-link>
       </li>
     </ul>
-    <router-link to="/login">
+    <router-link to="/">
       <div class="profile-menu">
         <p>
           Me
@@ -70,9 +70,4 @@ export default {
 
 <style lang="scss">
 @import "../assets/sass/main";
-
-.nav-width {
-  margin-left: 25rem;
-  margin-right: 25rem;
-}
 </style>
