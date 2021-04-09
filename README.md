@@ -12,7 +12,8 @@ It's a simple app that is intended to teach me...
  - How to setup a database using:
    - Oracle DB 18c Express Edition
  - How to containerize each part of the app like:
-   - Tomcat 10 (frontend and backend)
+   - Somthin simple like node for frontend
+   - Tomcat 10 (backend)
    - Oracle DB 18c
    - Nginx
    - Testing
@@ -34,7 +35,6 @@ Pages
 
 UnitTest (need to learn about proper creation but v much interested)
  - Mocha
-E2E
  - Selenium Cucumber in Js (super super cool)
 
 
